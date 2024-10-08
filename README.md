@@ -1,5 +1,4 @@
 import random
-
 while True:      
 
       choicess = ['rock','paper','scissors']

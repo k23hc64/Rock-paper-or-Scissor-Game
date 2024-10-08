@@ -1,8 +1,4 @@
-game using python 
-This is the code of it
-
 import random
-
 
 while True:      
 

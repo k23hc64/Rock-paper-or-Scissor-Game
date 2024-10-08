@@ -1,9 +1,14 @@
+game using python 
+This is the code of it
+
 import random
 
-while True:
-    choicess = ['rock','paper','scissors']
-    computer = random.choice(choicess)
 
+while True:      
+
+      choicess = ['rock','paper','scissors']
+    computer = random.choice(choicess)
+    
     player = None
     while player not in choicess:
         player = input("rock or paper or scissors?:")
@@ -51,8 +56,9 @@ while True:
     play_again = input("do you want to play again? yes/no").lower()
     if play_again != "yes":
         break
-
+        
 print("Bye")
+
 
 
 
